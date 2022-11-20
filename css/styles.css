@@ -1,0 +1,315 @@
+:root {
+  --white: #ffffff;
+  --bright: #f5f4fa;
+  --black: #000000;
+  --veryDark: #212121;
+  --blue: #2196f3;
+  --lightGray: #e5e5e5;
+  --gray: #757575;
+  --darkGray: #2f303a;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--lightGray);
+  color: var(--veryDark);
+}
+.wrapper {
+  width: 1600px;
+  background-color: var(--white);
+  margin: auto;
+}
+
+.top-nav {
+  background-color: var(--white);
+
+  border: 1px solid var(--lightGray);
+}
+.top-nav > a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway';
+  color: var(--black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.72;
+  letter-spacing: 0.03em;
+}
+.logo:hover {
+  color: var(--blue);
+}
+.logo-first-letters {
+  color: var(--blue);
+}
+
+.menu {
+  list-style-type: none;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+.menu > li > a {
+  color: inherit;
+  text-decoration: none;
+  line-height: 1.17;
+}
+.menu > li > a:hover {
+  color: var(--blue);
+}
+.menu > li > a:focus {
+  color: var(--blue);
+}
+
+.contacts {
+  list-style-type: none;
+
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+.contacts > li > a {
+  text-decoration: none;
+  color: var(--gray);
+  line-height: 1.17;
+}
+.contacts > li > a:hover {
+  color: var(--blue);
+}
+.contacts > li > a:focus {
+  color: var(--blue);
+}
+.big-title {
+  width: 1600px;
+  height: 600px;
+
+  background: var(--darkGray);
+}
+
+.title {
+  width: 696px;
+  height: 120px;
+  color: var(--white);
+
+  font-size: 44px;
+  letter-spacing: 6px;
+  line-height: 1.36;
+}
+.button {
+  width: 200px;
+  height: 50px;
+
+  font-size: 16px;
+  line-height: 1.87;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button:hover {
+  cursor: pointer;
+  background: var(--blue);
+}
+.button:focus {
+  background-color: var(--blue);
+}
+.description-studio {
+  width: 1170px;
+}
+.description-list {
+  list-style-type: none;
+  letter-spacing: 0.03em;
+}
+.description-list > li > h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+
+  color: var(--veryDark);
+}
+.description-list > li > p {
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+.our-job {
+  width: 1170px;
+}
+.small-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+}
+
+.images-studio-top {
+  list-style-type: none;
+}
+
+.team {
+  background: var(--bright);
+}
+.last-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  letter-spacing: 0.03em;
+}
+
+.worker-list {
+  list-style-type: none;
+}
+
+.worker-list h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--darkGray);
+}
+
+.worker-list p {
+  font-size: 16px;
+  line-height: 1.18;
+
+  letter-spacing: 0.03em;
+
+  color: var(--gray);
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+
+  background: var(--darkGray);
+}
+
+.footer a:hover {
+  color: var(--blue);
+}
+
+.logo-footer {
+  font-family: 'Raleway';
+  color: var(--white);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer .logo-footer {
+  text-decoration: none;
+}
+.logo-footer:hover {
+  color: var(--blue);
+}
+.logo-footer:focus {
+  color: var(--blue);
+}
+.footer-address {
+  list-style-type: none;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+.footer-address > .first-item > a {
+  text-decoration: none;
+  color: var(--white);
+
+  font-style: normal;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+}
+.footer-address a:hover {
+  /*nie rozumiem dlaczego hover nie stosuje sie wszystkich elementów adresu w stopce*/
+  color: var(--blue);
+}
+.footer-address a:focus {
+  /*i tak samo focus*/
+  color: var(--blue);
+}
+.footer-address > .second-item > a {
+  text-decoration-line: underline;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+}
+.footer-address a:hover {
+  /*muszę tu dopisć kolejny hover bo inaczej nie działa podswietlenie info@example.com*/
+  color: var(--blue);
+}
+.footer-address a:focus {
+  color: var(--blue);
+}
+.footer-address > .third-item > a {
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+}
+.footer-address a:hover {
+  /*a bez tego nr tel*/
+  color: var(--blue);
+}
+.footer-address a:focus {
+  color: var(--blue);
+}
+.container {
+  width: 1170px;
+}
+
+.buttons-portfolio {
+  list-style-type: none;
+}
+.button-item {
+  padding: 6px;
+  border: none;
+  background: var(--bright);
+  border-radius: 4px;
+
+  font-family: 'Roboto';
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.button-item:hover {
+  cursor: pointer;
+  background-color: var(--blue);
+}
+.button-item:focus {
+  background-color: var(--blue);
+}
+.images-portfolio {
+  list-style-type: none;
+}
+.images-portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.images-portfolio span {
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+
+  color: var(--gray);
+}
