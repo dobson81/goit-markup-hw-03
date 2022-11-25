@@ -377,9 +377,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 15px;
 
-  background-color: white;
+  background-color: var(--white);
+}
+.portfolio-item {
 }
 
 .images-portfolio h3 {
@@ -394,14 +395,15 @@ body {
   font-size: 16px;
   line-height: 1.87;
   padding-bottom: 20px;
-  margin-top: 4px;
+  padding-top: 4px;
   letter-spacing: 0.03em;
-  display: inline-block;
+
   color: var(--gray);
 }
 .images-description {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  padding-left: 24px;
-  border-bottom: 1px solid #eeeeee;
 }
