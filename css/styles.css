@@ -380,7 +380,8 @@ body {
 
   background-color: var(--white);
 }
-.portfolio-item {
+.portfolio-item img {
+  vertical-align: middle;
 }
 
 .images-portfolio h3 {
