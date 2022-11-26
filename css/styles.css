@@ -23,6 +23,7 @@ body {
 .wrapper {
   background-color: var(--white);
   margin: auto;
+  width: 1600px;
 }
 .container {
   width: 1200px;
@@ -199,7 +200,6 @@ body {
   margin-top: 50px;
   margin-left: 215px;
 
-  width: 1170px;
   padding: 0;
 }
 .images-studio-top li {
@@ -222,7 +222,7 @@ body {
   list-style-type: none;
   margin-top: 50px;
   display: flex;
-  padding-left: 0px;
+  width: 1170px;
   justify-content: space-between;
 }
 .list-item {
