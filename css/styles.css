@@ -55,9 +55,7 @@ body {
   display: flex;
   align-items: center;
 }
-.logo:hover {
-  color: var(--blue);
-}
+
 .logo-first-letters {
   color: var(--blue);
 }
@@ -139,13 +137,12 @@ body {
   margin-top: 30px;
   font-size: 16px;
   line-height: 1.87;
-
+  background: var(--blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .button:hover {
   cursor: pointer;
-  background: var(--blue);
 }
 .button:focus {
   background-color: var(--blue);
@@ -255,10 +252,6 @@ body {
   background: var(--darkGray);
 }
 
-.footer a:hover {
-  color: var(--blue);
-}
-
 .logo-footer {
   font-family: 'Raleway';
   color: var(--white);
@@ -272,12 +265,7 @@ body {
 .footer .logo-footer {
   text-decoration: none;
 }
-.logo-footer:hover {
-  color: var(--blue);
-}
-.logo-footer:focus {
-  color: var(--blue);
-}
+
 .footer-address {
   list-style-type: none;
   padding-left: 0px;
@@ -300,14 +288,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.7;
 }
-.footer-address a:hover {
-  /*nie rozumiem dlaczego hover nie stosuje sie wszystkich elementów adresu w stopce*/
-  color: var(--blue);
-}
-.footer-address a:focus {
-  /*i tak samo focus*/
-  color: var(--blue);
-}
+
 .footer-address > .second-item > a {
   text-decoration-line: underline;
   letter-spacing: 0.03em;
@@ -315,10 +296,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
 }
-.footer-address a:hover {
-  /*muszę tu dopisć kolejny hover bo inaczej nie działa podswietlenie info@example.com*/
-  color: var(--blue);
-}
+
 .footer-address a:focus {
   color: var(--blue);
 }
@@ -331,7 +309,6 @@ body {
   line-height: 1.7;
 }
 .footer-address a:hover {
-  /*a bez tego nr tel*/
   color: var(--blue);
 }
 .footer-address a:focus {
