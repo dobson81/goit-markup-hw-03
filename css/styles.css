@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.darkGray {
+  background: var(--darkGray);
+}
 :root {
   --white: #ffffff;
   --bright: #f5f4fa;
@@ -274,7 +276,7 @@ body {
 
   font-size: 14px;
   margin-top: 20px;
-  line-height: 1.7;
+  line-height: 1.5;
   padding-bottom: 60px;
 }
 .footer-address .first-item {
@@ -289,7 +291,6 @@ body {
 
   font-style: normal;
   letter-spacing: 0.03em;
-  line-height: 1.7;
 }
 
 .footer-address > .second-item > a {
@@ -297,7 +298,6 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  line-height: 1.7;
 }
 
 .footer-address a:focus {
@@ -309,7 +309,6 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
-  line-height: 1.7;
 }
 .footer-address a:hover {
   color: var(--blue);
