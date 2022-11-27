@@ -23,7 +23,6 @@ body {
 .wrapper {
   background-color: var(--white);
   margin: auto;
-  width: 1600px;
 }
 .container {
   width: 1200px;
@@ -64,6 +63,7 @@ body {
   list-style-type: none;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.7;
@@ -113,18 +113,19 @@ body {
   color: var(--blue);
 }
 .big-title {
-  height: 600px;
   display: flex;
   background: var(--darkGray);
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 106px;
+  padding-top: 106px;
 }
 
 .title {
   width: 696px;
-  height: 120px;
+
   color: var(--white);
 
   font-size: 44px;
@@ -270,13 +271,11 @@ body {
 
 .footer-address {
   list-style-type: none;
-  padding-left: 0px;
+
   font-size: 14px;
   margin-top: 20px;
   line-height: 1.7;
   padding-bottom: 60px;
-  display: flex;
-  flex-direction: column;
 }
 .footer-address .first-item {
   margin-bottom: 9px;
